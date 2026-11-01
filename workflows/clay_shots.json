@@ -1,0 +1,87 @@
+{
+ "w": 768,
+ "h": 960,
+ "length": 81,
+ "style": "Stop-motion claymation animation, handmade plasticine puppets animated frame by frame, slightly jerky stop-motion movement, miniature handcrafted set, soft warm light, the camera is mostly still.",
+ "negative": "photorealistic, real person, live action, smooth CGI, morphing, melting, distorted faces, extra limbs, text, letters, watermark, flicker, blurry, low quality, static image, frozen",
+ "shots": [
+  {
+   "id": "s1",
+   "key": "s1.jpg",
+   "seed": 101,
+   "motion": "the woman with the black bob haircut and mustard-yellow sweater types on the little laptop and smiles, then turns her head to look at the two robots. the pale-blue boxy clay robot in a white lab coat and round glasses nods and waves a hand; the coral-pink clay robot with a red beret bounces happily and waves too."
+  },
+  {
+   "id": "s2",
+   "key": "s2.jpg",
+   "seed": 202,
+   "motion": "the pale-blue boxy clay robot in a white lab coat and round glasses pushes up its glasses and taps buttons on its calculator; the coral-pink clay robot with a red beret tips its beret and twirls its paintbrush. Both robots bounce slightly in place."
+  },
+  {
+   "id": "s3",
+   "key": "s3.jpg",
+   "seed": 303,
+   "motion": "the coral-pink clay robot with a red beret paints quickly on the easel with bold strokes, colorful little cards slide out and fan across the table, confetti flutters down. the woman with the black bob haircut and mustard-yellow sweater claps her hands and laughs."
+  },
+  {
+   "id": "s3b",
+   "from_last": "s3",
+   "seed": 313,
+   "motion": "the coral-pink clay robot with a red beret turns and proudly holds up a finished colorful poster, then more colorful option cards pop up one by one on the table. the woman with the black bob haircut and mustard-yellow sweater points at one of the cards and nods happily."
+  },
+  {
+   "id": "s4",
+   "key": "s4.jpg",
+   "seed": 404,
+   "motion": "the coral-pink clay robot with a red beret scribbles on the paper with its pencil, then more and more paper speech bubbles and curling paper scrolls burst out of the top of its head one after another, piling up and spilling over the desk. The robot wobbles its head. the woman with the black bob haircut and mustard-yellow sweater shakes her head with her arms crossed."
+  },
+  {
+   "id": "s5",
+   "key": "s5.jpg",
+   "seed": 505,
+   "motion": "The giant cardboard control machine comes alive: dials spin, gauges needles swing, buttons blink, levers move up and down and wires wiggle. the woman with the black bob haircut and mustard-yellow sweater scratches her head in confusion. the coral-pink clay robot with a red beret proudly gestures at the machine."
+  },
+  {
+   "id": "s6",
+   "key": "s6.jpg",
+   "seed": 606,
+   "motion": "the pale-blue boxy clay robot in a white lab coat and round glasses very carefully paints a stiff straight grey line on the canvas with a rigid arm. the coral-pink clay robot with a red beret laughs smugly and lifts its colorful painting higher to show it off."
+  },
+  {
+   "id": "s7",
+   "key": "s7.jpg",
+   "seed": 707,
+   "motion": "The conveyor belt rolls forward and small cardboard boxes travel along it. the pale-blue boxy clay robot in a white lab coat and round glasses picks up a box and places it into the machine, and neat paper sheets with charts slide out and stack up on the other side."
+  },
+  {
+   "id": "s7b",
+   "from_last": "s7",
+   "seed": 717,
+   "motion": "The conveyor belt keeps rolling, more cardboard boxes arrive, and the stacks of chart papers grow taller and neater. the pale-blue boxy clay robot in a white lab coat and round glasses works steadily and efficiently, moving boxes onto the belt."
+  },
+  {
+   "id": "s7c",
+   "from_last": "s7b",
+   "seed": 727,
+   "motion": "The conveyor belt keeps running smoothly. the pale-blue boxy clay robot in a white lab coat and round glasses straightens a stack of chart papers, adjusts its glasses and gives a satisfied thumbs up."
+  },
+  {
+   "id": "s8",
+   "key": "s8.jpg",
+   "seed": 808,
+   "motion": "the pale-blue boxy clay robot in a white lab coat and round glasses peers through the magnifying glass at a puzzle piece, then reshapes the clay puzzle piece with its hands and presses it into place in the puzzle."
+  },
+  {
+   "id": "s8b",
+   "from_last": "s8",
+   "seed": 818,
+   "motion": "the pale-blue boxy clay robot in a white lab coat and round glasses moves the magnifying glass slowly across the finished puzzle checking every piece, then nods with satisfaction."
+  },
+  {
+   "id": "s9",
+   "key": "s9.jpg",
+   "seed": 909,
+   "motion": "the pale-blue boxy clay robot in a white lab coat and round glasses and the coral-pink clay robot with a red beret reach across the desk and give each other a high-five over the woman with the black bob haircut and mustard-yellow sweater, who laughs and throws her arms up happily."
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+﻿machine,mode,model,run,audio_seconds,seconds,rtf_x,chars,start_epoch,end_epoch,time
+GB10,asr,paraformer-zh+fsmn-vad+ct-punc,1,460.3,2.2,209,1695,1793553822.6,1793553824.8,2026-11-01T11:23:42
+GB10,asr,paraformer-zh+fsmn-vad+ct-punc,2,460.3,2.18,211,1695,1793553824.8,1793553827.0,2026-11-01T11:23:44
+GB10,asr,paraformer-zh+fsmn-vad+ct-punc,3,460.3,2.17,212,1695,1793553827.0,1793553829.2,2026-11-01T11:23:47

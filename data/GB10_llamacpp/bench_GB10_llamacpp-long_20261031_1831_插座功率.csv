@@ -1,0 +1,4 @@
+﻿prompt_tokens,prefill_tok_s,gen_tokens,gen_tok_s,first_token_s,start_epoch,end_epoch,machine,mode,model,run,gpu_power_avg_w,gpu_power_peak_w,time,wall_avg_w,wall_peak_w,wall_wh,wh_per_1k_tok,delta_w,delta_wh_per_1k_tok
+31837,1539.2,115,44.3,20.68,1793489403.6,1793489426.9,GB10,llamacpp-long,gpt-oss:120b@llamacpp-default,1,58,63,2026-10-31T18:30:27,330.1,339.6,2.137,18.581,109.6,6.169
+31837,1535.8,122,44.4,20.73,1793489427.4,1793489451.1,GB10,llamacpp-long,gpt-oss:120b@llamacpp-default,2,58,65,2026-10-31T18:30:51,332.9,342.5,2.192,17.965,112.4,6.065
+31837,1534.2,118,44.3,20.75,1793489451.1,1793489474.8,GB10,llamacpp-long,gpt-oss:120b@llamacpp-default,3,59,66,2026-10-31T18:31:14,336.9,344.9,2.218,18.796,116.4,6.493

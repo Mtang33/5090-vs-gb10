@@ -1,0 +1,8 @@
+{"edits": [
+ {"id": "e1", "key": "s1.jpg", "seed": 11, "prompt": "Remove all text, letters and numbers from the image. Keep everything else exactly the same."},
+ {"id": "e2", "key": "s2.jpg", "seed": 12, "prompt": "Fix the hands so every character has natural hands with five fingers. Keep everything else exactly the same."},
+ {"id": "e3", "key": "s3.jpg", "seed": 13, "prompt": "Change the woman's yellow sweater to a dark green sweater. Keep everything else exactly the same."},
+ {"id": "e4", "key": "s4.jpg", "seed": 14, "prompt": "Remove the garbled writing on the papers and screens, leave them blank. Keep everything else exactly the same."},
+ {"id": "e5", "key": "s5.jpg", "seed": 15, "prompt": "Add a small potted plant made of clay on the table. Keep everything else exactly the same."},
+ {"id": "e6", "key": "s6.jpg", "seed": 16, "prompt": "Make the lighting warm golden-hour sunlight from the left window. Keep the characters and set exactly the same."}
+]}

@@ -1,0 +1,67 @@
+{
+ "w": 1056,
+ "h": 1320,
+ "style": "Stop-motion claymation film still. Handmade plasticine figures with visible fingerprints and sculpting tool marks, slightly lumpy hand-shaped forms. Miniature handcrafted set built from felt, corrugated cardboard, balsa wood and paper props. Soft warm natural sunlight, gentle shadows, shallow depth of field, tilt-shift miniature look, pastel palette, cozy and whimsical, highly detailed macro photography, 35mm film grain.",
+ "negative": "photorealistic human, real person, celebrity, readable text, letters, words, numbers, watermark, logo, signature, blurry, low quality, 2D cartoon, anime, flat illustration, glossy CGI plastic, deformed hands, extra limbs",
+ "chars": {
+  "woman": "a cheerful young woman clay figure with a short black bob haircut, round rosy cheeks and a mustard-yellow knitted sweater",
+  "sci": "a small boxy robot sculpted from pale-blue clay wearing a tiny white lab coat and round black glasses, with a pencil tucked behind its antenna",
+  "art": "a small round robot sculpted from coral-pink clay wearing a red beret and a paint-splattered smock"
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "start": 0.0,
+   "seed": 1101,
+   "prompt": "A cheerful young woman clay figure with a short black bob haircut, round rosy cheeks and a mustard-yellow knitted sweater sits at a tiny wooden desk with a little laptop, smiling. Standing on the desk beside her are two small clay robots: on the left a small boxy robot sculpted from pale-blue clay wearing a tiny white lab coat and round black glasses, on the right a small round robot sculpted from coral-pink clay wearing a red beret and a paint-splattered smock. Both robots look up at her, ready to work. Cozy miniature home office with a felt window and paper plants."
+  },
+  {
+   "id": "s2",
+   "start": 5.0,
+   "seed": 1202,
+   "prompt": "Two small clay robots standing side by side on a miniature stage like a school portrait, facing the camera. On the left, a small boxy robot sculpted from pale-blue clay wearing a tiny white lab coat and round black glasses, holding a tiny calculator and a ruler, with a little chalkboard of geometric shapes behind it. On the right, a small round robot sculpted from coral-pink clay wearing a red beret and a paint-splattered smock, holding a paintbrush and a palette, with a little easel and flowers behind it. Split background: cool blue on the left, warm coral on the right."
+  },
+  {
+   "id": "s3",
+   "start": 7.98,
+   "seed": 1303,
+   "prompt": "a small round robot sculpted from coral-pink clay wearing a red beret and a paint-splattered smock happily paints colorful little social-media posters on a miniature easel: bright cards with hearts, flowers and smiley faces are fanned out around it like a deck of options, paint drips and confetti everywhere. a cheerful young woman clay figure with a short black bob haircut, round rosy cheeks and a mustard-yellow knitted sweater looks delighted from the side. Warm coral and sunny yellow tones."
+  },
+  {
+   "id": "s4",
+   "start": 18.1,
+   "seed": 1404,
+   "prompt": "a small round robot sculpted from coral-pink clay wearing a red beret and a paint-splattered smock sits at a tiny desk trying to draw a simple table grid on paper, but an avalanche of blank paper speech bubbles and long curling paper scrolls pours out of its head and buries the desk. a cheerful young woman clay figure with a short black bob haircut, round rosy cheeks and a mustard-yellow knitted sweater stands nearby with arms crossed, unimpressed. Comic chaos, no writing on the papers."
+  },
+  {
+   "id": "s5",
+   "start": 24.7,
+   "seed": 1505,
+   "prompt": "A ridiculously overcomplicated control panel machine built from cardboard and bottle caps, covered with dozens of dials, gauges, levers, blinking buttons and tangled wires, towering over a cheerful young woman clay figure with a short black bob haircut, round rosy cheeks and a mustard-yellow knitted sweater who stands in front of it scratching her head in confusion. a small round robot sculpted from coral-pink clay wearing a red beret and a paint-splattered smock proudly presents the machine. Absurd and funny."
+  },
+  {
+   "id": "s6",
+   "start": 29.2,
+   "seed": 1606,
+   "prompt": "a small boxy robot sculpted from pale-blue clay wearing a tiny white lab coat and round black glasses stands at a small easel holding a paintbrush stiffly, having painted a rigid grey picture made only of perfect squares and straight lines. a small round robot sculpted from coral-pink clay wearing a red beret and a paint-splattered smock stands beside it with a smug grin, holding its own colorful painting. Gentle humorous contrast between grey and colorful."
+  },
+  {
+   "id": "s7",
+   "start": 34.8,
+   "seed": 1707,
+   "prompt": "a small boxy robot sculpted from pale-blue clay wearing a tiny white lab coat and round black glasses operates a neat tidy miniature factory conveyor belt: small cardboard shipping boxes come in on one side and come out as perfectly stacked paper sheets with simple bar charts and pie charts on the other side. Everything is orderly, clean and efficient, cool blue lighting, satisfying symmetry."
+  },
+  {
+   "id": "s8",
+   "start": 48.3,
+   "seed": 1808,
+   "prompt": "a small boxy robot sculpted from pale-blue clay wearing a tiny white lab coat and round black glasses leans over a large jigsaw puzzle on the floor, holding a magnifying glass, carefully reshaping a clay puzzle piece that does not fit, with a tiny clay wrench next to it. Focused and calm. Cool blue tones, close-up macro shot."
+  },
+  {
+   "id": "s9",
+   "start": 56.3,
+   "seed": 1909,
+   "prompt": "a cheerful young woman clay figure with a short black bob haircut, round rosy cheeks and a mustard-yellow knitted sweater sits in the middle of a long wooden desk split into two halves: on the left half a small boxy robot sculpted from pale-blue clay wearing a tiny white lab coat and round black glasses works on neat charts, on the right half a small round robot sculpted from coral-pink clay wearing a red beret and a paint-splattered smock paints colorful pictures. The three of them smile and the two robots give each other a high-five across the woman. Teamwork, warm happy ending, golden afternoon light."
+  }
+ ]
+}

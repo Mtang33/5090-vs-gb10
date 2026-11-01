@@ -1,0 +1,47 @@
+05:31:51 edit
+預熱（載入模型，不計）…
+Traceback (most recent call last):
+  File "/home/mtang/clay/bench_comfy.py", line 134, in <module>
+    main()
+  File "/home/mtang/clay/bench_comfy.py", line 82, in main
+    print('預熱（載入模型，不計）…', flush=True); _, t0, t1, *_ = timed(lambda: job(items[0], warm=True)); print(f'  載入+首張 {t1 - t0:.1f}s')
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/clay/bench_comfy.py", line 36, in timed
+    res = fn()
+          ^^^^
+  File "/home/mtang/clay/bench_comfy.py", line 82, in <lambda>
+    print('預熱（載入模型，不計）…', flush=True); _, t0, t1, *_ = timed(lambda: job(items[0], warm=True)); print(f'  載入+首張 {t1 - t0:.1f}s')
+                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/clay/bench_comfy.py", line 79, in job
+    img = qedit.run(qedit.wf(name, e['prompt'] + (' (warmup)' if warm else ''), e.get('seed', 1) + (99991 if warm else 0)))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/clay/qedit.py", line 28, in run
+    def run(prompt): return clay_gen.run(prompt)
+                            ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/clay/clay_gen.py", line 35, in run
+    pid = post('/prompt', {'prompt': prompt, 'client_id': str(uuid.uuid4())})['prompt_id']
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/clay/clay_gen.py", line 28, in post
+    return json.loads(urllib.request.urlopen(r).read())
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mtang/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/home/mtang/.local/share/uv/python/cpython-3.12.16-linux-x86_64-gnu/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 400: Bad Request
+EDIT_FAIL
+05:31:51 ALL_DONE
+Terminated                 setsid nohup .venv/bin/python main.py --listen 127.0.0.1 --port 8189 --disable-auto-launch > ~/comfyui_8189.log 2>&1 < /dev/null

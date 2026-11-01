@@ -1,0 +1,13 @@
+05:36:08 h3ref
+預熱（載入模型 + 17 幀短片，不計）…
+  載入+預熱 28.0s
+  r1: 124 幀 54s · 顯卡 336 W · 顯存峰值 31.1 GB
+  r2: 124 幀 54s · 顯卡 340 W · 顯存峰值 31.1 GB
+  r3: 124 幀 54s · 顯卡 339 W · 顯存峰值 31.1 GB
+  r4: 124 幀 54s · 顯卡 341 W · 顯存峰值 31.1 GB
+  r5: 124 幀 54s · 顯卡 341 W · 顯存峰值 31.1 GB
+  r6: 124 幀 54s · 顯卡 338 W · 顯存峰值 31.1 GB
+共 6 個，總計 325 秒（5.4 分）· 中位數 54.1 秒/個
+結果： /home/mtang/clay/bench_5090_comfy-h3_20261101_0542.csv
+05:42:06 ALL_DONE
+Terminated                 setsid nohup .venv/bin/python main.py --listen 127.0.0.1 --port 8188 --use-sage-attention --disable-auto-launch > ~/comfyui_8188.log 2>&1 < /dev/null

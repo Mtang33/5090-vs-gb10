@@ -1,0 +1,3 @@
+﻿machine,mode,model,run,frames,seconds,gpu_power_avg_w,gpu_power_peak_w,gpu_mem_peak_gb,start_epoch,end_epoch,time
+GB10x4,comfy-edit,edit:e1,1,1,14.1,76,84,,1793548709.9,1793548724.0,2026-11-01T09:58:29
+GB10x4,comfy-edit,edit:e2,2,1,16.1,74,84,,1793548724.4,1793548740.4,2026-11-01T09:58:44

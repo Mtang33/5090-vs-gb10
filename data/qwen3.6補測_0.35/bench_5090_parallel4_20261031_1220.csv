@@ -1,0 +1,4 @@
+﻿machine,mode,model,run,prompt_tokens,prefill_tok_s,gen_tokens,gen_tok_s,first_token_s,load_s,model_size_gb,gpu_pct,gpu_power_avg_w,gpu_power_peak_w,parallel_total_tok_s,parallel_per_req_tok_s,start_epoch,end_epoch,ollama,gpu,os,time
+5090,parallel4,qwen3.6:35b,1,1156,5401.5,16,270.3,0.21,3.2,22.3,100,200,325,180.8,294.5,1793467263.0,1793467278.5,0.35.0,"NVIDIA GeForce RTX 5090, 595.99.02",Linux-7.0.0-42-generic-x86_64-with-glibc2.43,2026-10-31T12:21:18
+5090,parallel4,qwen3.6:35b,2,1156,5533.2,16,276.6,0.21,3.2,22.3,100,206,329,185.4,300.7,1793467278.5,1793467293.7,0.35.0,"NVIDIA GeForce RTX 5090, 595.99.02",Linux-7.0.0-42-generic-x86_64-with-glibc2.43,2026-10-31T12:21:33
+5090,parallel4,qwen3.6:35b,3,1156,5517.7,16,276.7,0.21,3.2,22.3,100,206,325,184.6,301.5,1793467293.7,1793467308.9,0.35.0,"NVIDIA GeForce RTX 5090, 595.99.02",Linux-7.0.0-42-generic-x86_64-with-glibc2.43,2026-10-31T12:21:48

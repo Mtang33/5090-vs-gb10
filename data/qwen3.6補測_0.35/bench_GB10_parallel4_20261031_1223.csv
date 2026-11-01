@@ -1,0 +1,4 @@
+﻿machine,mode,model,run,prompt_tokens,prefill_tok_s,gen_tokens,gen_tok_s,first_token_s,load_s,model_size_gb,gpu_pct,gpu_power_avg_w,gpu_power_peak_w,parallel_total_tok_s,parallel_per_req_tok_s,start_epoch,end_epoch,ollama,gpu,os,time
+GB10,parallel4,qwen3.6:35b,1,1156,1773.2,16,87.9,0.65,12.8,22.3,100,22,38,52.7,81.9,1793467427.0,1793467478.4,0.35.0,"NVIDIA GB10, 580.178.04",Linux-7.0.0-1019-nvidia-aarch64-with-glibc2.39,2026-10-31T12:24:38
+GB10,parallel4,qwen3.6:35b,2,1156,1757.2,16,91.2,0.66,12.8,22.3,100,22,38,53.8,83.8,1793467478.4,1793467528.5,0.35.0,"NVIDIA GB10, 580.178.04",Linux-7.0.0-1019-nvidia-aarch64-with-glibc2.39,2026-10-31T12:25:28
+GB10,parallel4,qwen3.6:35b,3,1156,1754.8,16,89.0,0.66,12.8,22.3,100,23,38,56.2,85.7,1793467528.5,1793467576.6,0.35.0,"NVIDIA GB10, 580.178.04",Linux-7.0.0-1019-nvidia-aarch64-with-glibc2.39,2026-10-31T12:26:16

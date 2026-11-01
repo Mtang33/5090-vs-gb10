@@ -1,0 +1,2 @@
+﻿machine,mode,model,rounds,gen_tok_s_first,gen_tok_s_last,gen_tok_s_median,gpu_power_avg_w,gpu_power_peak_w,start_epoch,end_epoch
+5090,soak,gpt-oss:20b,97,289.3,290.3,290.1,450,466,1793465732.1,1793465913.2

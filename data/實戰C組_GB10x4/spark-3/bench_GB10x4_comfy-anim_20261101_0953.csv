@@ -1,0 +1,4 @@
+﻿machine,mode,model,run,frames,seconds,gpu_power_avg_w,gpu_power_peak_w,gpu_mem_peak_gb,start_epoch,end_epoch,time
+GB10x4,comfy-anim,anim:s5,1,81,216.3,84,96,,1793547767.2,1793547983.5,2026-11-01T09:42:47
+GB10x4,comfy-anim,anim:s6,2,81,220.3,82,96,,1793547983.9,1793548204.1,2026-11-01T09:46:23
+GB10x4,comfy-anim,anim:s9,3,81,214.3,85,95,,1793548204.3,1793548418.7,2026-11-01T09:50:04

@@ -1,0 +1,15 @@
+09:35:19 B-remotion-rerun
+idle 1793547319.8
+short Bashi02Clay 1807f rc=0 t0=1793547349.8 t1=1793547391.1 dur=41.3
+long BashiLongFull 0-5999 rc=0 t0=1793547411.1 t1=1793547559.0 dur=147.9
+DONE
+09:39:49 idle-baseline
+C_STAGE comfy start 1793547649.080
+C_STAGE comfy end 1793548650.053
+C_STAGE edit+h3ref start 1793548680.058
+C_STAGE edit+h3ref end 1793549119.972
+C_STAGE remotion-short start 1793549149.977
+C_STAGE remotion-short end 1793549168.638
+C_STAGE remotion-long start 1793549188.643
+C_STAGE remotion-long end 1793549237.177
+10:07:17 ALL_DONE
