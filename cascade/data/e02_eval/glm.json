@@ -1,0 +1,72 @@
+{
+ "label": "glm",
+ "model": "glm-5.3-flash",
+ "ctk": {
+  "reasoning_effort": "low"
+ },
+ "started": "2026-11-02 01:15:11",
+ "t1": {
+  "reasoning_chars": 3416,
+  "wall_s": 45.1,
+  "prompt_tokens": 3224,
+  "completion_tokens": 1347,
+  "finish": "stop",
+  "tok_s": 29.9,
+  "score": {
+   "accuracy": 0.739,
+   "delete_precision": 0.909,
+   "delete_recall": 0.328,
+   "delete_f1": 0.482,
+   "n_delete": 22,
+   "n_truth_delete": 61,
+   "keep_all_baseline": 0.63
+  }
+ },
+ "t2": {
+  "reasoning_chars": 0,
+  "wall_s": 9.1,
+  "prompt_tokens": 825,
+  "completion_tokens": 703,
+  "finish": "stop",
+  "tok_s": 77.3,
+  "score": {
+   "asr_vs_script": 0.752,
+   "out_vs_script": 0.7673,
+   "gain": 0.0153,
+   "lines_in": 104,
+   "lines_out": 104
+  }
+ },
+ "t3": {
+  "reasoning_chars": 0,
+  "wall_s": 6.3,
+  "prompt_tokens": 830,
+  "completion_tokens": 217,
+  "finish": "stop",
+  "tok_s": 34.4
+ },
+ "t4": {
+  "reasoning_chars": 0,
+  "wall_s": 5.7,
+  "prompt_tokens": 6165,
+  "completion_tokens": 129,
+  "finish": "stop",
+  "tok_s": 22.6,
+  "score": {
+   "correct": 10,
+   "of": 10,
+   "per_question": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "minutes": 60.8,
+ "requests_ok": 947,
+ "requests_failed": 0,
+ "errors": [],
+ "agg_tok_s": 259.0,
+ "per_stream_tok_s": {
+  "median": 23.0,
+  "p5": 9.9
+ },
+ "prefills": [
+  {
+   "at": "16:27:15",
+   "wall_s": 18.3,
+   "prompt_tokens": 129620,
+   "needle_ok": true
+  },
+  {
+   "at": "16:37:49",
+   "wall_s": 48.6,
+   "prompt_tokens": 129327,
+   "needle_ok": true
+  },
+  {
+   "at": "16:47:30",
+   "wall_s": 30.7,
+   "prompt_tokens": 129414,
+   "needle_ok": true
+  },
+  {
+   "at": "16:57:31",
+   "wall_s": 31.3,
+   "prompt_tokens": 129537,
+   "needle_ok": true
+  },
+  {
+   "at": "17:07:36",
+   "wall_s": 35.3,
+   "prompt_tokens": 129484,
+   "needle_ok": true
+  },
+  {
+   "at": "17:17:36",
+   "wall_s": 34.4,
+   "prompt_tokens": 129762,
+   "needle_ok": true
+  }
+ ],
+ "log_errors": {
+  "localhost": [],
+  "spark-msi": [],
+  "spark-worker": [],
+  "spark-3": []
+ },
+ "counters_diff": "head {'enP2p1s0f1np1.rx_prio0_packets': 1638164379, 'enP2p1s0f1np1.rx_prio3_packets': 273061136, 'enP2p1s0f1np1.tx_prio0_packets': 1638271378, 'enP2p1s0f1np1.tx_prio3_packets': 273047381, 'enp1s0f1np1.rx_prio0_packets': 1638164379, 'enp1s0f1np1.rx_prio3_packets': 273061136, 'enp1s0f1np1.tx_prio0_packets': 1638271378, 'enp1s0f1np1.tx_prio3_packets': 273047381}\nmsi {'enP2p1s0f1np1.rx_prio0_packets': 1640203709, 'enP2p1s0f1np1.rx_prio3_packets': 273576719, 'enP2p1s0f1np1.tx_prio0_packets': 1640176305, 'enP2p1s0f1np1.tx_prio3_packets': 273572031, 'enp1s0f1np1.rx_prio0_packets': 1640203709, 'enp1s0f1np1.rx_prio3_packets': 273576719, 'enp1s0f1np1.tx_prio0_packets': 1640176305, 'enp1s0f1np1.tx_prio3_packets': 273572031}\nworker {'enP2p1s0f1np1.rx_prio0_packets': 1642184460, 'enP2p1s0f1np1.rx_prio3_packets': 273339776, 'enP2p1s0f1np1.tx_prio0_packets': 1641135533, 'enP2p1s0f1np1.tx_prio3_packets': 273346302, 'enp1s0f1np1.rx_prio0_packets': 1642184460, 'enp1s0f1np1.rx_prio3_packets': 273339776, 'enp1s0f1np1.tx_prio0_packets': 1641135533, 'enp1s0f1np1.tx_prio3_packets': 273346302}\nspark-3 {'enP2p1s0f1np1.rx_prio0_packets': 1644747947, 'enP2p1s0f1np1.rx_prio3_packets': 272816912, 'enP2p1s0f1np1.tx_prio0_packets': 1645716755, 'enP2p1s0f1np1.tx_prio3_packets': 272828829, 'enp1s0f1np1.rx_prio0_packets': 1644747947, 'enp1s0f1np1.rx_prio3_packets': 272816912, 'enp1s0f1np1.tx_prio0_packets': 1645716755, 'enp1s0f1np1.tx_prio3_packets': 272828829}\n",
+ "memguard": {
+  "localhost": {
+   "min_avail_gb": 9.32,
+   "aborts": 0
+  },
+  "spark-msi": {
+   "min_avail_gb": 11.48,
+   "aborts": 0
+  },
+  "spark-worker": {
+   "min_avail_gb": 9.47,
+   "aborts": 0
+  },
+  "spark-3": {
+   "min_avail_gb": 11.73,
+   "aborts": 0
+  }
+ },
+ "pass": true
+}

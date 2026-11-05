@@ -1,0 +1,5 @@
+head min avail 9.86 GB
+node1 min avail 11.92 GB
+node2 min avail 8.05 GB
+node3 min avail 11.99 GB
+nemotron3_tp4 Up 3 hours

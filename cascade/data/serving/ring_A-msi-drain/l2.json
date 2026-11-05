@@ -1,0 +1,213 @@
+{
+ "world": 4,
+ "torch": "2.13.0+cu130",
+ "nccl_compiled": "2.29.7",
+ "nccl_libs_loaded": [
+  "/opt/sglang/lib/python3.12/site-packages/nvidia/nccl/lib/libnccl.so.2"
+ ],
+ "nccl_env": {
+  "NCCL_NET": "IB",
+  "NCCL_CROSS_NIC": "1",
+  "NCCL_IB_HCA": "rocep1s0f0,rocep1s0f1",
+  "NCCL_IB_DISABLE": "0",
+  "NCCL_BUFFSIZE": "1048576",
+  "NCCL_SOCKET_IFNAME": "enP7s7",
+  "NCCL_IB_MERGE_NICS": "0",
+  "NCCL_PROTO": "^LL128",
+  "NCCL_ALGO": "Ring",
+  "NCCL_DEBUG_SUBSYS": "INIT,ENV",
+  "NCCL_SWITCHLESS_RING_ONLY": "1",
+  "NCCL_P2P_DISABLE": "1",
+  "NCCL_IB_SUBNET_PREFIX_LEN": "24",
+  "NCCL_CUMEM_ENABLE": "0",
+  "NCCL_MAX_NCHANNELS": "4",
+  "NCCL_VERSION": "2.28.3-1",
+  "NCCL_IB_GID_INDEX": "3",
+  "NCCL_SHM_DISABLE": "1",
+  "NCCL_LL128_BUFFSIZE": "262144",
+  "NCCL_IB_SUBNET_AWARE_ROUTING": "1",
+  "NCCL_P2P_LEVEL": "SYS",
+  "NCCL_MIN_NCHANNELS": "4",
+  "NCCL_SKIP_TREE_CONNECT": "1",
+  "NCCL_DEBUG": "WARN"
+ },
+ "results": [
+  {
+   "op": "all_reduce",
+   "bytes": 8,
+   "iters": 500,
+   "us": 22.4,
+   "algbw_GBps": 0.0,
+   "busbw_GBps": 0.001
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 64,
+   "iters": 500,
+   "us": 27.18,
+   "algbw_GBps": 0.002,
+   "busbw_GBps": 0.004
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 512,
+   "iters": 500,
+   "us": 27.72,
+   "algbw_GBps": 0.018,
+   "busbw_GBps": 0.028
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 4096,
+   "iters": 500,
+   "us": 32.73,
+   "algbw_GBps": 0.125,
+   "busbw_GBps": 0.188
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 32768,
+   "iters": 500,
+   "us": 44.89,
+   "algbw_GBps": 0.73,
+   "busbw_GBps": 1.095
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 262144,
+   "iters": 305,
+   "us": 94.06,
+   "algbw_GBps": 2.787,
+   "busbw_GBps": 4.181
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 1048576,
+   "iters": 76,
+   "us": 183.92,
+   "algbw_GBps": 5.701,
+   "busbw_GBps": 8.552
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 2097152,
+   "iters": 38,
+   "us": 301.67,
+   "algbw_GBps": 6.952,
+   "busbw_GBps": 10.428
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 8388608,
+   "iters": 10,
+   "us": 1137.19,
+   "algbw_GBps": 7.377,
+   "busbw_GBps": 11.065
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 33554432,
+   "iters": 10,
+   "us": 4220.47,
+   "algbw_GBps": 7.95,
+   "busbw_GBps": 11.926
+  },
+  {
+   "op": "all_reduce",
+   "bytes": 134217728,
+   "iters": 10,
+   "us": 16548.43,
+   "algbw_GBps": 8.111,
+   "busbw_GBps": 12.166
+  },
+  {
+   "op": "all_gather",
+   "bytes": 8,
+   "iters": 500,
+   "us": 16.11,
+   "algbw_GBps": 0.0,
+   "busbw_GBps": 0.0
+  },
+  {
+   "op": "all_gather",
+   "bytes": 64,
+   "iters": 500,
+   "us": 15.96,
+   "algbw_GBps": 0.004,
+   "busbw_GBps": 0.003
+  },
+  {
+   "op": "all_gather",
+   "bytes": 512,
+   "iters": 500,
+   "us": 16.23,
+   "algbw_GBps": 0.032,
+   "busbw_GBps": 0.024
+  },
+  {
+   "op": "all_gather",
+   "bytes": 4096,
+   "iters": 500,
+   "us": 20.5,
+   "algbw_GBps": 0.2,
+   "busbw_GBps": 0.15
+  },
+  {
+   "op": "all_gather",
+   "bytes": 32768,
+   "iters": 500,
+   "us": 24.97,
+   "algbw_GBps": 1.312,
+   "busbw_GBps": 0.984
+  },
+  {
+   "op": "all_gather",
+   "bytes": 262144,
+   "iters": 305,
+   "us": 54.67,
+   "algbw_GBps": 4.795,
+   "busbw_GBps": 3.596
+  },
+  {
+   "op": "all_gather",
+   "bytes": 1048576,
+   "iters": 76,
+   "us": 97.91,
+   "algbw_GBps": 10.709,
+   "busbw_GBps": 8.032
+  },
+  {
+   "op": "all_gather",
+   "bytes": 2097152,
+   "iters": 38,
+   "us": 304.79,
+   "algbw_GBps": 6.881,
+   "busbw_GBps": 5.161
+  },
+  {
+   "op": "all_gather",
+   "bytes": 8388608,
+   "iters": 10,
+   "us": 624.15,
+   "algbw_GBps": 13.44,
+   "busbw_GBps": 10.08
+  },
+  {
+   "op": "all_gather",
+   "bytes": 33554432,
+   "iters": 10,
+   "us": 2153.61,
+   "algbw_GBps": 15.581,
+   "busbw_GBps": 11.685
+  },
+  {
+   "op": "all_gather",
+   "bytes": 134217728,
+   "iters": 10,
+   "us": 8338.48,
+   "algbw_GBps": 16.096,
+   "busbw_GBps": 12.072
+  }
+ ],
+ "wall_s": 8.0
+}
